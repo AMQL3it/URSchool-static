@@ -1,0 +1,30 @@
+[
+    {
+        "image": "event-a.png",
+        "caption": "লাইব্রেরি কার্যক্রম"
+    },
+    {
+        "image": "event-b.png",
+        "caption": "বই পড়া / বুক রিভিউ"
+    },
+    {
+        "image": "event-c.png",
+        "caption": "সাহিত্য আড্ডা"
+    },
+    {
+        "image": "event-d.png",
+        "caption": "ম্যাগাজিন বের করা"
+    },
+    {
+        "image": "event-e.png",
+        "caption": "বিভিন্ন প্রতিযোগিতা"
+    },
+    {
+        "image": "event-f.png",
+        "caption": "লেখক কর্মশালা"
+    },
+    {
+        "image": "event-g.png",
+        "caption": "কালচারাল ক্লাব"
+    }
+]

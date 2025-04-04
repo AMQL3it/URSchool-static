@@ -2,48 +2,83 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Contact</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <title>Home</title>
+        <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-        <div class="contcover-section">
+        <div class="cover-section">
             <section class="header">
                 <section class="logo">
-                    <img src="../assets/logo.png" alt="Logo">
+                    <img src="./assets/logo.png" alt="Logo">
                     <h1>My Website</h1>
                 </section>
                 <section class="menu">
                     <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="./advisor.html">Advisors</a></li>
-                        <li><a href="./service.html">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./pages/advisor.html">Advisors</a></li>
+                        <li><a href="./pages/service.html">Services</a></li>
+                        <li><a href="./pages/contact.html">Contact</a></li>
                     </ul>
                 </section>
             </section>
 
+            <section class="content">
+                <img src="./assets/cover-name.png" alt="Cover Image">
+                <p>ইসলামী ও আধুনিক জ্ঞানের সম্মেলনে এক অনন্য প্রতিষ্ঠান </p>
+                <button>Learn More</button>
+            </section>
         </div>
 
-
         <div class="container">
-            <!-- google map -->
-            <h3>Our Location</h3>
-            <div class="map-container">
-                <!-- <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.848031004915!2d90.39945231543153!3d23.750841894726847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b85c7f9f9f99%3A0xe947d8a7fd89a7f3!2sDhaka%2C%20Bangladesh!5e0!3m2!1sen!2sbd!4v1617184724979!5m2!1sen!2sbd" 
-                    allowfullscreen="" 
-                    loading="lazy">
-                </iframe> -->
-
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d621.3213995873729!2d90.41990188756662!3d23.731559124652854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1743652853567!5m2!1sen!2sbd"  allowfullscreen="" loading="lazy">
-
-                </iframe>
+            <h3>একাডেমিক ও উলেমা উপদেষ্টা</h3>
+            
+            <div class="content" id="advisors-content">
+                <!-- <div class="card">
+                    <div class="profile">
+                        <img src="./assets/advisor-1.png" alt="Advisor Image">
+                    </div>
+                    <div class="details">
+                        <div class="info">
+                            <h4>Dr. Md. Shahidul Islam</h4>
+                            <p>প্রতিষ্ঠানের সহযোগী</p>
+                        </div>
+                        <div class="article">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                            <button class="read-more">Read More</button>
+                        </div>
+                    </div>
+                </div> -->
+    
             </div>
 
         </div>
-    
+
+        <div class="container">
+            <h3>আবাসিক দৈনন্দিন কার্যাবলী</h3>
+            <div class="image-container" id="activities-content">
+                <!-- <div class="image-card">
+                    <img src="./assets/task-1.png" alt="Image 1">
+                    <p>ক্যাপশন ১</p>
+                </div> -->
+                
+            </div>
+            <button class="see-more" id="activity-btn"> See more </button>
+        </div>
+
+        <div class="container">
+            <h3>ইন্টেলেকচুয়াল ক্লাব</h3>
+            <div class="image-container" id="club-content">
+                <!-- <div class="image-card">
+                    <img src="./assets/event-a.png" alt="Image 1">
+                    <p>ক্যাপশন ১</p>
+                </div> -->
+               
+            </div>
+            <button class="see-more" id="club-btn"> See more </button>
+        </div>
+
         <div class="contact">
             <div class="contact-info">
                 <h3>Contact Us</h3>
@@ -80,6 +115,7 @@
             </form> 
 
         </div>
+
 
         <div class="fcontainer">
             <div class="footer">
@@ -130,6 +166,8 @@
                 <p>&copy; 2025 AMQL3it. All rights reserved.</p>
             </div>
         </div>
-        
+    
     </body>
+    
+    <script src="./js/home.js"></script>
 </html>
